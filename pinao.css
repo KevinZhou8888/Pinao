@@ -1,0 +1,246 @@
+body {
+    margin: 20px;
+    padding: 0;
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial";
+}
+
+div.container {
+    background-color: rgb(22, 22, 22);
+    width: 2000px;
+    padding: 10px;
+    /* height: 450px; */
+    /* display: flex; */
+
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#functionLine {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 2020px;
+    margin: 30px;
+    left: -30px;
+    top: 20px;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+}
+
+div.key.while {
+    background: linear-gradient(#fff 96%, #eee 4%);
+
+    width: 40px;
+    height: 150px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+div.key.black {
+    background: linear-gradient(#333, #000);
+    width: 24px;
+    height: 100px;
+    margin: 0 -12px 0 -12px;
+    z-index: 1;
+    border-radius: 0 5px 5px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-color: rgb(0, 0, 0);
+}
+
+div.key.black:active {
+    position: relative;
+    left: 1px;
+    top: 5px;
+}
+
+div.key.while:active {
+    position: relative;
+    left: 1px;
+    top: 5px;
+}
+
+#biaoji:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+#clear:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+#bofang:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+div.keys {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.key.while > .key.name {
+    position: relative;
+    bottom: -120px;
+    left: 13px;
+    color: #838383;
+    user-select: none;
+}
+
+.key.black > .key.name {
+    position: relative;
+    bottom: -55px;
+    left: 1px;
+    color: #838383;
+    user-select: none;
+}
+
+.guide {
+    display: flex;
+}
+
+.guideLine {
+    position: relative;
+    width: 280px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    left: 20px;
+    text-align: center;
+    border-radius: 3px;
+    color: #000000;
+    border: 2px #000 solid;
+    background-color: #fd820f;
+    user-select: none;
+}
+
+#clear {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 10px rgb(0, 0, 0) solid;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: "SimHei";
+    font-size: large;
+}
+
+#bofang {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 10px rgb(0, 0, 0) solid;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: "SimHei";
+    font-size: large;
+}
+
+#biaoji {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: 10px rgb(0, 0, 0) solid;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-family: "SimHei";
+    font-size: large;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.key_interval {
+    position: relative;
+    padding-top: 5px;
+    top: 0px;
+    font-size: 30px;
+    font-family: "poppins", sans-serif;
+    width: 110px;
+    height: 44px;
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.key_interval2 {
+    position: relative;
+    padding-top: 5px;
+    top: -32px;
+    left: -10px;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    width: 110px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    font-family: "SimHei";
+
+    margin: 0 -53px 0 -55px;
+}
+small {
+    font-size: medium;
+}
+#up {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 10px rgb(255, 162, 0) solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 162, 0);
+    font-family: "SimHei";
+    font-size: large;
+    padding-top: 8px;
+}
+#down {
+    position: relative;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 10px rgb(255, 162, 0) solid;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 162, 0);
+    font-family: "SimHei";
+    font-size: large;
+    padding-top: 8px;
+}
+
+#down:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+#up:active {
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
