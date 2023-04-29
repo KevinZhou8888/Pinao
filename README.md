@@ -1,6 +1,7 @@
-# Pinao-
+# Pinao
 用HTML CSS JS 实现的84键钢琴辅助学习工具，可以标记音符并显示音符间的音程关系
 <p>把文件放到一个文件夹里，打开index.html即可</p>
+<p>src文件里是88键的钢琴音频文件，需要的自取</p>
 
 ![image](https://user-images.githubusercontent.com/99710297/235314143-7a3081a9-41c8-432d-933f-228d41bb0973.png)
 标记即可显示音程关系,可以将和弦上下移动
